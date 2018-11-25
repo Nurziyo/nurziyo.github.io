@@ -1,0 +1,80 @@
+body{
+	
+background:url("ger.jpg");
+   background-repeat: no-repeat;
+    center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  background-size: cover;}
+
+
+h1,p{
+	text-align: center;
+	color:black;
+}
+
+*{
+box-sizing: border-box;
+}
+
+.column{
+	
+	
+	float:left;
+}
+.row::after{
+	content: "";
+	clear:both;
+	display:flex;
+
+}
+img.July{
+	width:250 px;
+	height:200 px;
+	padding:10 px;
+	margin-left:15 px;
+}
+
+
+
+
+
+a{
+	color:black;
+}
+.column1{
+	float:left;
+}
+.row1::after{
+	content:"";
+	clear:both;
+	display: flex;
+
+}
+img.nut{
+	width: 100px;
+	height: 150px;
+	padding: 10px;
+	margin-left: 15 px;
+}
+
+.column2{
+	float:left;
+
+}
+.row2::after{
+	content:"";
+	clear: both;
+	display: flex;
+}
+img{
+	width:200px;
+	height:200px;
+	margin-left: 20px;
+	padding-left: 90px;
+}
+img{
+	width: 200px;
+	height: 200px;
+	margin-left: 4.5 cm;
+}
